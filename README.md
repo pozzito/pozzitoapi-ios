@@ -1,10 +1,10 @@
 
 [![CocoaPods](https://img.shields.io/badge/platforms-iOS-orange.svg?maxAge=2592000)](http://rs-build/repo/log/?r=hyper/ios/hyper-sdk.git&h=pozzito_core)
-[![Languages](https://img.shields.io/badge/languages-OjbC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](http://rs-build/repo/log/?r=hyper/ios/hyper-sdk.git&h=pozzito_core)
+[![Languages](https://img.shields.io/badge/languages-ObjC%20%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/pozzito-dev/pozzitoapi-ios)
 
 ## Installation
 
-Pozzito supports iOS 10 and up.
+Pozzito supports iOS 9 and up.
 
 ### CocoaPods
 Add the Pozzito pod into your Podfile and run `pod install`.
@@ -15,7 +15,7 @@ Add the Pozzito pod into your Podfile and run `pod install`.
 
 ### Manual Installation
 
-1. [Download Pozzito]() and extract the zip.
+1. Download Pozzito and extract the zip.
 2. Go to your Xcode project's "General" settings. Drag `Pozzito.framework` to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.
 3. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
 
