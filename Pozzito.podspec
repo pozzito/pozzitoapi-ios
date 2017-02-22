@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name         = "Pozzito"
-  s.version      = "0.9.9"
-  s.summary      = "Pozzito REST api  SDK"
+  s.version      = "1.0.0"
+  s.summary      = "Pozzito REST api SDK"
   s.description  = "Pozzito core, conversation and chat functionalities"
-  s.homepage     = "http://www.pozzito.com/"
+  s.homepage     = "https://github.com/pozzito-dev/pozzitoapi-ios"
   s.license      = "Private"
   s.author       = "Sedam IT"
   s.platform     = :ios, "9.0"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
-  s.source       = { :git => 'https://github.com/pozzito-dev/pozzitoapi-ios.git', :tag => '0.9.9' }
+  s.source       = { :git => 'https://github.com/pozzito-dev/pozzitoapi-ios.git', :tag => '1.0.0' }
   s.vendored_frameworks = 'Pozzito.framework'
 end
