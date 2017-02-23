@@ -31,7 +31,7 @@ First of all, to use Pozzito you need to have api key and app id, you should get
 When you have installed Pozzito, you need to import it in the file you want to use it, and instantiate PozzitoManager with apiKey and appId.
 
 ```swift
-PozzitoManager(apiKey: "", appId: "", completion: { (err) in
+PozzitoManager(apiKey: "api key string", appId: "app id string", completion: { (err) in
     //error handling
 })
 ```
