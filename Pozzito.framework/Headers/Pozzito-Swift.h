@@ -194,6 +194,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PozzitoManag
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 /// Deletes current user related data(config, user details)
 - (void)clearUserData;
+/// Checks if config exists and register app for remote notifications
+- (void)registerForPushNotifications;
+/// Sends push notification token string when app registers and receives token
+/// \param token Push token string representation
+///
+- (void)sendTokenWithToken:(NSString * _Nonnull)token;
+/// Sends local notification used for refreshing views in start controller and conversations controller
+/// \param noticationData <#noticationData description#>
+///
+- (void)sendNotificationWithNoticationData:(NSDictionary * _Nonnull)noticationData;
 @end
 
 
